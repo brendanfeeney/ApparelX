@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Apparel X | Careers </title>
+<link rel="stylesheet" href="CSS/styles.css" />	
+<script src="regexFunctions.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="images/Favicon.png" />
+</head>
+
+<body>
+
+<header>
+
+<a href="Index.html"><img class="style-logo" src="images/logo.jpg" alt="Apparel X Logo" onmouseover="this.src='images/logo_mouseover.jpg';"
+         onmouseout="this.src='images/logo.jpg';"></img>
+    			<nav class="style-nav">
+        <ul>
+          <li><a href="#">Women</a></li>
+          <li><a href="Men.html">Men</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="careers.html">Careers</a></li> 
+          <li><a href="#">Basket</a></li>        
+        </ul>                     
+  </nav>                    
+</header>  
+    
+<main>
+
+<div class="row">
+    <div class ="col">
+    	<div class="need-you">
+            <h3>We need <u>YOU</u> to help us deliver fair fashion</h3>
+            <h3>Apply Below</h3>
+            <a href="" class="button">Read More About Us</a>
+        </div>
+    </div>
+</div> 
+
+<div class="row">
+    <div class ="col"> 
+		<div id="contactWrapper">
+        	<div id="contactBox">
+    			<p1>Sadly, we have no vacancies at Apparel X right now but we are always on the lookout for fresh talent and ideas. Please fill out the form below using the verify buttons to check your details before submission. We will contact you as soon as a vacancy opens in your area.</p1>
+
+		<!--First Name field -->
+        <input type="text" id="fname" placeholder="First Name"> <input type="button" value ="verify" onclick="fnameValidator();">
+        
+        <!--Last Name field -->
+        <input type="text" id="lname" placeholder="Last Name"> <input type="button" value="verify" onclick="lnameValidator();">
+        
+        <!--email field -->
+        <input type="text" id="email" placeholder="Email"> <input type="button" value="verify" onclick="emailValidator();">
+        <br>
+        <!--Phone Number -->
+        <input type="text" id="phNumber" placeholder="Phone Number"> <input type="button" value="verify" onclick="phNumberValidator();">  
+        <!--Date Stamp -->
+        <input type="button" value="Click to Date Stamp Submission" onclick="getElementById('date').innerHTML=Date()">
+        <p id="date"></p>
+         
+        <!-- Submit button here -->
+	<input id="submit" type="submit" value="Submit">      
+
+
+
+       		</div><!-- end contactBox --> 
+       </div> <!-- end wrapper -->    
+	</div> <!-- end col --> 
+</div> <!-- end row -->    
+
+</main>
+    
+<footer>
+<div class="row">
+        	<div class ="col">
+            
+            <img class="social-media" src="images/icon-facebook.jpg" onmouseover="this.src='images/icon-facebook-hover.jpg';"onmouseout="this.src='images/icon-facebook.jpg';"></img>
+            
+            <img class="social-media" src="images/icon-twitter.jpg" onmouseover="this.src='images/icon-twitter-hover.jpg';"onmouseout="this.src='images/icon-twitter.jpg';"></img>
+            
+            <img class="social-media" src="images/icon-instagram.jpg" onmouseover="this.src='images/icon-instagram-hover.jpg';"onmouseout="this.src='images/icon-instagram.jpg';"></img>
+            
+            <img class="social-media" src="images/icon-pinterest.jpg" onmouseover="this.src='images/icon-pinterest-hover.jpg';"onmouseout="this.src='images/icon-pinterest.jpg';"></img>
+                 </div>
+            </div>
+            
+   <div class="row">
+       <div class ="col">
+          <p class=footer-text>© Adobe Systems Incorporated. All rights reserved.</p>
+          <p class=footer-text>Any reference to Apparel X or any associated logos is for demonstration purposes only and not intended to refer to any actual organisation or event</p>
+       </div>
+   </div>
+</footer>
+    
+</body>
+</html>
