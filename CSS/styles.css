@@ -1,0 +1,496 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+#rating{
+        width: 300px;
+        height: 140px;
+        border: 1px black solid;
+    }
+
+header {
+	padding: 80px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 20px 30px;
+	background-color: #878499;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	max-width: 490px;
+}
+
+/* Header Styling */
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 112px;
+	margin-botton:100px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #161329;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.style-nav a:hover {
+	color: #666666;
+	text-decoration:none;
+}
+
+/* Main  Styling */
+
+.ethical-fashion {
+	background-image:url(../images/lady-in-grass.jpg);
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top:30px;
+}
+
+.about-us {
+	background-image:url(../images/mannequins.jpg);
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #161329;
+	text-align: center;
+	text-shadow:
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+}
+
+.shop-man-lrg{
+	background-image:url(../images/shop-man-lrg.jpg);
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #CC804A;
+	text-align: center;
+	margin-top:30px;
+	text-shadow:
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+}
+
+h1 {
+	font-size: 57px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 23px;
+}
+
+h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 120px;
+}
+
+h4 {
+	font-size:25px;
+	letter-spacing: .05em;
+	color: #333333;
+	font-weight: 200;
+	margin-bottom:120px;		
+}
+
+h5 {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 23px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}	
+
+p1 {
+	display: block;
+	width: 90%;
+	margin: 20px 0 0 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #333333;
+	letter-spacing: .01em;
+	font-style: normal;
+	font-weight: 300;
+	font-family: source-sans-pro; sans-serif;
+}
+
+.button {
+	border: 2px #FFFFFF solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button2{
+	border: 2px #161329 solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #161329;
+	text-decoration: none;
+}
+
+.button3{
+	border: 2px #CC804A solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #CC804A;
+	text-decoration: none;
+}
+
+
+.scrollbar {
+	margin-top:50px;
+	height:310px;
+	width:100%;
+	overflow:auto;
+	background-color:#CC804A;
+	color:white;
+	scrollbar-base-color:gold;
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	padding:10px;
+	}
+
+.shop-shirt {
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.shop-woman {
+	background-image:url(../images/shop-woman.jpg);
+	background-size: cover;
+	color: #161329;
+	padding: 30px 20px 60px;
+	text-align: center;
+	text-align: center;
+}
+
+.shop-man {
+	background-image:url(../images/shop-man.jpg);
+	background-size: cover;
+	color: #161329;
+	padding: 30px 20px 60px;
+	text-align: center;
+	text-align: center;
+}
+
+.col {
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}	
+
+
+/* Career Form Styling */
+
+.need-you {
+	background-image:url(../images/lavender-you.jpg);
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+input {
+	border: 2px solid #eeeeee;
+	height: 46px;
+	margin: 10px 0 0 0;
+	padding: 1%;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #333333;
+	letter-spacing: .01em;
+	font-style: normal;
+	font-weight: 300;
+	font-family: source-sans-pro; sans-serif;
+}
+
+#fname{
+	width:70%;
+}
+
+#lname{
+	width:70%;
+}
+
+#email {
+	width:70%;
+}
+
+#phNumber {
+	width: 70%;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+#checkbox {
+	position: absolute;
+	top: 0;
+  	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+}
+
+.customCheck {
+	width: 90%;
+	float: left;
+	margin-top: 20px;
+	position: relative;
+}
+
+.customCheck label {
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 0;
+  	left: 0;
+	background: #eee;
+	border:1px solid #ddd;
+}
+
+.customCheck label:after {
+	opacity: 0.2;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 5px;
+	left: 4px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.customCheck label:hover::after {
+	opacity: 0.5;
+}
+
+.customCheck input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+
+.robot {
+	display: inline-block;
+	position: relative;
+	width: 60%;
+	margin: 0 0 0 30px;
+	line-height: 1em;
+}
+
+#submit {
+	display: block;
+	border: 0;
+	width: 25%;
+	height: 60px;
+	margin: 30px auto 0;
+	background: #eee;
+	color: #CC804A;
+	text-align: center;
+	transition: background, color, .5s ease 0;
+	border: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #333333;
+	letter-spacing: .01em;
+	font-style: normal;
+	font-weight: 300;
+	font-family: source-sans-pro; sans-serif;
+}
+
+#submit:hover {
+	background: #DADADA;
+	border: 1px #DADADA;
+	color: #C43C3E;
+}
+
+#ContactWrapper {
+	max-width: 1020px;
+	height: 100%;
+	background: #fff;
+	margin: 0px auto 0;
+	padding: 20px;
+}
+
+#contactBox {
+	position: relative;
+	margin: 0 auto;
+	padding:20px;
+	height: auto;
+	width: 50%;
+	min-width: 325px;
+}
+
+.contactForm {
+	display: block;
+	margin: 20px 0 0 0;
+	width: 90%;
+}	
+
+.table {
+	position: centre;
+	margin: 0 auto;
+	padding:20px;
+	height: auto;
+	width: 50%;
+	min-width: 325px;
+}
+
+.table {
+	display: block;
+	margin: 20px 0 0 0;
+	width: 90%;
+}
+
+/* Footer Styling */
+
+footer {
+	padding: 20px 30px;
+	background-color: #878499;
+}
+
+.footer-text {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.social-media {
+	width: 80px;
+}
+
+.next-page a:hover {
+	color: #666666;
+	text-decoration:none;
+}
+
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 40px;
+		margin-bottom: 90px;
+	}
+	
+	h2 {
+		margin-bottom: 16px;
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+	
+	.scrollbar {
+	height:395px;
+	}
+	
+	.social-media {
+	width: 60px;
+	}
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+		
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+	.social-media {
+	width: 40px;
+	}
+}
+
